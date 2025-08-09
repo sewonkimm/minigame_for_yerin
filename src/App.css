@@ -6,7 +6,7 @@
 
 body {
   margin: 0;
-  font-family: 'Georgia', serif;
+  font-family: "Georgia", serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: #1a1a1a;
@@ -24,12 +24,12 @@ body {
     gap: 5px;
     padding: 10px;
   }
-  
+
   .card-container {
     width: 80px;
     height: 80px;
   }
-  
+
   .game-button {
     padding: 12px 20px;
     font-size: 0.9rem;

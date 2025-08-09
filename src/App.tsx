@@ -1,7 +1,7 @@
-import React from 'react';
-import styled from 'styled-components';
-import MemoryGame from './components/MemoryGame';
-import './App.css';
+import React from "react";
+import styled from "styled-components";
+import MemoryGame from "./components/MemoryGame";
+import "./App.css";
 
 const AppContainer = styled.div`
   min-height: 100vh;
@@ -10,52 +10,53 @@ const AppContainer = styled.div`
   flex-direction: column;
   align-items: center;
   padding: 20px;
-  font-family: 'Georgia', serif;
-  
+  height: 100%;
+  font-family: "Georgia", serif;
+
   @media (max-width: 768px) {
     padding: 15px;
   }
-  
+
   @media (max-width: 480px) {
     padding: 10px;
   }
 `;
 
 const Title = styled.h1`
-  color: #FFD700;
-  font-size: 2.5rem;
+  color: #ffd700;
+  font-size: min(4vw, 48px);
   text-align: center;
-  margin: 20px 0 40px 0;
+  margin: min(2vw, 20px) 0 min(3vw, 30px) 0;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
   letter-spacing: 2px;
-  
+
   @media (max-width: 768px) {
-    font-size: 2rem;
-    margin: 15px 0 30px 0;
+    font-size: min(5vw, 36px);
+    margin: min(1.5vw, 15px) 0 min(2.5vw, 25px) 0;
   }
-  
+
   @media (max-width: 480px) {
-    font-size: 1.5rem;
-    margin: 10px 0 20px 0;
+    font-size: min(6vw, 28px);
+    margin: min(1vw, 10px) 0 min(2vw, 20px) 0;
     letter-spacing: 1px;
   }
 `;
 
 const Subtitle = styled.p`
-  color: #B22222;
-  font-size: 1.2rem;
+  color: #b22222;
+  font-size: min(2vw, 24px);
   text-align: center;
-  margin: -30px 0 30px 0;
+  margin: min(-2vw, -20px) 0 min(2vw, 20px) 0;
   font-style: italic;
-  
+
   @media (max-width: 768px) {
-    font-size: 1rem;
-    margin: -25px 0 25px 0;
+    font-size: min(2.5vw, 18px);
+    margin: min(-1.5vw, -15px) 0 min(1.5vw, 15px) 0;
   }
-  
+
   @media (max-width: 480px) {
-    font-size: 0.9rem;
-    margin: -15px 0 20px 0;
+    font-size: min(3vw, 16px);
+    margin: min(-1vw, -10px) 0 min(1vw, 10px) 0;
   }
 `;
 
